@@ -14,6 +14,7 @@ function Tester(){
             <hr />
             <button
             onClick={()=>{setColor("blue")}}>state hook tester</button>
+            <br />
         </div>
     )
 }

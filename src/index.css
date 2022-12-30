@@ -9,7 +9,7 @@ body {
 }
 
 div.head {
-  background-color: brown;
+  background-color: rgb(175, 92, 92);
   width: 15%;
   margin: 0 auto 0 auto;
 }
@@ -27,10 +27,26 @@ ul:first-child {
 }
 li a{
   width: 60%;
-  border-color: red;
+  border-color: rgb(52, 235, 125);
   border-radius: 5px solid;
   color: white;
   font-size: 20px;
   font-style: italic;
   text-decoration: none;
+}
+
+.mytodo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.mytodo input {
+  width: 20px;
+}
+.mytodo p {
+  font-family: monospace;
+  margin-left: 10px;
+  color: rgb(100, 240, 36);
+  font-size: 22px;
 }
