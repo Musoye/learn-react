@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Hello from './Hello'
 import Header from './Header'
 import Tester from './Tester'
@@ -6,9 +6,11 @@ import Todo from './Todo'
 import Todoitems from './Todoitems'
 
 function App() {
-  const allTask = Todoitems.map((item) => <Todo key ={item.id} item={item}/>);
+  
+  const allTask = Todoitems.map((item) => <Todo key ={item.id}item={item}/>);
   const done = Todoitems.filter((dat)=> (dat.completed)).map((item) => <Todo key ={item.id} item={item}/>);
   const undone = Todoitems.filter((dat)=> (dat.completed == false)).map((item) => <Todo key ={item.id} item={item}/>);
+
   return (
     <>
     <Header />
@@ -24,4 +26,4 @@ function App() {
   );
 }
 
-export default App;
+export default App
