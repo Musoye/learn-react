@@ -22,8 +22,8 @@ class AppController {
       current_day: currentDay,
       utc_time: utcTime,
       track: track,
-      github_file_url: 'https://github.com/ayobamy/hngx_projects/blob/main/stage_one/server.js',
-      github_repo_url: 'https://github.com/ayobamy/hngx_projects/tree/main/stage_one',
+      github_file_url: 'https://github.com/Musoye/hngx/blob/main/endpoints/server.js',
+      github_repo_url: 'https://github.com/Musoye',
       status_code: res.statusCode.toString(),
     })
   })
