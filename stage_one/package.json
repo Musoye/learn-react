@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Create and host an endpoint using any programming language of your choice.",
   "main": "server.js",
+  "node": ">=16 <18",
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
